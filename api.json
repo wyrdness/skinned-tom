@@ -1,0 +1,624 @@
+{
+  "category": "CRYPTID",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/skinned-tom",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "skinned-tom",
+    "name": "Skinned Tom",
+    "aliases": [
+      {
+        "name": "The Skinned Man",
+        "region": "Appalachian Mountains",
+        "meaning": "Descriptive name for the creature's appearance"
+      },
+      {
+        "name": "Raw Thing",
+        "region": "West Virginia",
+        "meaning": "Reference to exposed muscle tissue"
+      },
+      {
+        "name": "Red Man of the Hollows",
+        "region": "Kentucky",
+        "meaning": "Named for red muscle appearance and habitat"
+      }
+    ],
+    "category": "CRYPTID",
+    "subcategory": "Humanoid",
+    "tags": [
+      "humanoid",
+      "bipedal",
+      "appalachian-folklore",
+      "forest-dwelling",
+      "nocturnal",
+      "terrifying-appearance",
+      "oral-tradition"
+    ],
+    "status": "folklore",
+    "description": {
+      "summary": "A skinless humanoid entity from Appalachian oral traditions, described as human-like but without skin, showing raw muscle and tissue. Associated with deep woods and mountain hollows, with terrifying appearance but varying behavioral accounts.",
+      "full": "Skinned Tom is a creature from Appalachian folklore described as a humanoid figure completely devoid of skin, exposing raw red muscle, sinew, and tissue beneath. Standing roughly human height but with an unsettling gait, this entity is said to inhabit the deep hollows and remote mountain regions of the Appalachian Mountains. While its appearance is universally described as terrifying, accounts of its behavior vary—some portray it as a malevolent entity that stalks travelers, while others suggest it is more curious or even pitiful, possibly cursed or suffering. The legend has roots in oral tradition passed down through generations of mountain communities, with few documented modern sightings but persistent presence in regional folklore."
+    },
+    "etymology": {
+      "origin": "The name 'Skinned Tom' likely derives from Appalachian oral tradition, combining the descriptive 'skinned' with the common given name 'Tom,' a typical practice in regional folklore naming conventions.",
+      "meaning": "Named for its most distinctive feature—the complete absence of skin",
+      "first_use": "Unknown, predates written documentation"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "CRYPTID",
+      "type": "Humanoid",
+      "subtype": "Folkloric entity",
+      "variant": "Appalachian"
+    },
+    "related_phenomena": [
+      {
+        "id": "wendigo",
+        "name": "Wendigo",
+        "relationship": "similar",
+        "description": "Another gaunt humanoid forest entity from North American folklore"
+      },
+      {
+        "id": "rake",
+        "name": "The Rake",
+        "relationship": "similar",
+        "description": "Modern pale humanoid creature with disturbing appearance"
+      },
+      {
+        "id": "not-deer",
+        "name": "Not Deer",
+        "relationship": "regional",
+        "description": "Another Appalachian cryptid with disturbing appearance"
+      },
+      {
+        "id": "tailypo",
+        "name": "Tailypo",
+        "relationship": "regional",
+        "description": "Fellow Appalachian folklore creature"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": 1.5,
+        "max": 1.9,
+        "unit": "meters",
+        "confidence": "low"
+      },
+      "weight": {
+        "min": 50,
+        "max": 80,
+        "unit": "kilograms",
+        "confidence": "low"
+      },
+      "coloration": [
+        "deep red",
+        "dark crimson",
+        "glistening red-brown",
+        "raw muscle color"
+      ],
+      "features": [
+        {
+          "feature": "Skinless appearance",
+          "description": "Entire body appears to lack skin, exposing raw muscle and tissue",
+          "frequency": "always"
+        },
+        {
+          "feature": "Visible musculature",
+          "description": "Muscles, sinews, and connective tissue clearly visible",
+          "frequency": "always"
+        },
+        {
+          "feature": "Glistening surface",
+          "description": "Body appears wet or glistening, as if freshly exposed",
+          "frequency": "common"
+        },
+        {
+          "feature": "Humanoid structure",
+          "description": "Bipedal with human-like proportions but disturbing appearance",
+          "frequency": "always"
+        },
+        {
+          "feature": "Gaunt frame",
+          "description": "Thin, emaciated appearance with prominent muscle definition",
+          "frequency": "common"
+        },
+        {
+          "feature": "Eyes",
+          "description": "Described as lidless or exposed, sometimes glowing faintly",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "Bipedal humanoid with disturbing skinless appearance. Gaunt build with visible musculature. Movements described as jerky or unnatural. No visible skin covering anywhere on body."
+    },
+    "abilities": [
+      {
+        "ability": "Silent stalking",
+        "description": "Can move through forest with minimal sound despite appearance",
+        "frequency": "common",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Night vision",
+        "description": "Appears to navigate easily in complete darkness",
+        "frequency": "common",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Endurance",
+        "description": "Can pursue targets over long distances without tiring",
+        "frequency": "occasional",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Intimidation",
+        "description": "Appearance alone causes extreme fear in witnesses",
+        "frequency": "always",
+        "evidence_level": "reported"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "deep hollows",
+        "mountain forests",
+        "abandoned homesteads",
+        "cave entrances",
+        "creek beds"
+      ],
+      "diet": "Unknown, no feeding observed",
+      "patterns": [
+        "Stays hidden during daylight",
+        "Observed near water sources",
+        "May follow travelers at distance",
+        "Some accounts suggest territorial behavior",
+        "Occasionally approaches human dwellings at night"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Primarily reported in the Appalachian Mountain region, with highest concentration in central Appalachia including West Virginia, eastern Kentucky, eastern Tennessee, western Virginia, and western North Carolina.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": [
+        "West Virginia",
+        "Eastern Kentucky",
+        "Eastern Tennessee",
+        "Western Virginia",
+        "Western North Carolina",
+        "Appalachian Mountains"
+      ]
+    },
+    "hotspots": [
+      {
+        "name": "Kanawha County Hollows",
+        "location": {
+          "description": "Remote hollows of Kanawha County",
+          "country": "United States",
+          "region": "West Virginia",
+          "coordinates": {
+            "latitude": 38.3498,
+            "longitude": -81.6326
+          }
+        },
+        "sighting_count": 12,
+        "peak_period": "1920s-1960s",
+        "notes": "Cluster of oral tradition accounts from old-timers"
+      },
+      {
+        "name": "Pine Mountain",
+        "location": {
+          "description": "Pine Mountain range area",
+          "country": "United States",
+          "region": "Kentucky-Virginia border",
+          "coordinates": {
+            "latitude": 36.7600,
+            "longitude": -83.3200
+          }
+        },
+        "sighting_count": 8,
+        "peak_period": "1940s-1970s",
+        "notes": "Stories passed through mining communities"
+      },
+      {
+        "name": "Great Smoky Mountains",
+        "location": {
+          "description": "Remote areas of Great Smoky Mountains",
+          "country": "United States",
+          "region": "Tennessee-North Carolina border",
+          "coordinates": {
+            "latitude": 35.6532,
+            "longitude": -83.5070
+          }
+        },
+        "sighting_count": 6,
+        "peak_period": "1950s-1980s",
+        "notes": "Isolated sightings from hikers and hunters"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "Pre-1900",
+        "circa": true,
+        "source": "Oral tradition predates written documentation"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "1920s-1960s",
+          "description": "Period when stories most actively shared in mountain communities"
+        },
+        {
+          "period": "1980s-2000s",
+          "description": "Revival of interest through folklore collection efforts"
+        }
+      ],
+      "seasonal_patterns": "More reports in late fall and winter months when trees are bare"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Rooted in Appalachian oral tradition, likely emerging from multiple storytelling traditions including Scots-Irish folklore, Cherokee legends, and isolated mountain community experiences. The figure may have served as a cautionary tale or explanation for mysterious phenomena.",
+      "earliest_accounts": "No definitive earliest account exists. Stories passed orally through generations in isolated mountain communities, likely originating in the 19th century or earlier.",
+      "folklore_connections": "Connected to broader tradition of Appalachian folklore creatures and 'boogeyman' type entities. Shares thematic elements with European flayed-man imagery and Indigenous cautionary tales."
+    },
+    "timeline": [
+      {
+        "date": "Pre-1900",
+        "event": "Oral tradition origins",
+        "significance": "Stories begin circulating in isolated Appalachian communities",
+        "source": "Oral tradition"
+      },
+      {
+        "date": "1920s-1940s",
+        "event": "Peak of oral transmission",
+        "significance": "Stories widely known in certain mountain communities, told to children as cautionary tales",
+        "source": "Community elders, collected accounts"
+      },
+      {
+        "date": "1950s-1970s",
+        "event": "Occasional sighting reports",
+        "significance": "Scattered reports from hunters and rural residents",
+        "source": "Local newspaper mentions, personal accounts"
+      },
+      {
+        "date": "1980s-2000s",
+        "event": "Folklore documentation",
+        "significance": "Folklorists and researchers begin documenting Appalachian legends",
+        "source": "Academic folklore collections"
+      },
+      {
+        "date": "2010s-present",
+        "event": "Internet era revival",
+        "significance": "Stories shared on cryptid forums and social media, sparking renewed interest",
+        "source": "Online communities"
+      }
+    ],
+    "modern_era": "In the modern era, Skinned Tom remains primarily a folkloric entity with few contemporary sighting reports. Interest has been revived through internet forums, cryptid enthusiast communities, and regional folklore preservation efforts. The legend continues to be part of Appalachian cultural heritage."
+  },
+
+  "sightings": {
+    "statistics": {
+      "total_documented": 35,
+      "verified": 0,
+      "disputed": 30,
+      "debunked": 5,
+      "date_range": {
+        "earliest": "Pre-1900",
+        "latest": "2023"
+      }
+    },
+    "notable": [
+      {
+        "id": "skinned-tom-sighting-1947-coal",
+        "name": "Coal Miner's Encounter",
+        "date": {
+          "value": "1947",
+          "precision": "approximate"
+        },
+        "location": {
+          "description": "Hollow near coal mining camp",
+          "country": "United States",
+          "region": "West Virginia",
+          "locality": "McDowell County",
+          "coordinates": {
+            "latitude": 37.3784,
+            "longitude": -81.6912,
+            "precision": "approximate"
+          }
+        },
+        "witnesses": {
+          "count": 1,
+          "types": ["Coal miner"],
+          "credibility_factors": ["Experienced outdoorsman", "Familiar with local wildlife"]
+        },
+        "description": "A coal miner walking home after night shift reported encountering a humanoid figure standing near a creek. He described it as having 'no skin at all, just red meat showing.' The figure stood motionless for several moments before moving into the tree line with an 'unnatural gait.' The witness reported feeling overwhelming dread and ran home.",
+        "conditions": {
+          "weather": "Clear, cold",
+          "visibility": "Pre-dawn twilight",
+          "time_of_day": "Early morning",
+          "duration": "Less than one minute"
+        },
+        "evidence": [
+          "Witness testimony",
+          "Second-hand account recorded by family member"
+        ],
+        "credibility": {
+          "rating": "low",
+          "factors": [
+            "Single witness",
+            "Poor lighting conditions",
+            "Account reported years after incident",
+            "No physical evidence"
+          ],
+          "notes": "Typical of oral tradition accounts—details may have changed in retelling."
+        },
+        "sources": [
+          "Family oral history, recorded 1982"
+        ],
+        "featured": true
+      },
+      {
+        "id": "skinned-tom-sighting-1963-hunters",
+        "name": "Kentucky Hunters Sighting",
+        "date": {
+          "value": "1963-11",
+          "precision": "month"
+        },
+        "location": {
+          "description": "Pine Mountain wilderness",
+          "country": "United States",
+          "region": "Kentucky",
+          "locality": "Harlan County",
+          "coordinates": {
+            "latitude": 36.8431,
+            "longitude": -83.3218,
+            "precision": "approximate"
+          }
+        },
+        "witnesses": {
+          "count": 2,
+          "types": ["Hunters"],
+          "credibility_factors": ["Multiple witnesses", "Experienced with local wildlife"]
+        },
+        "description": "Two deer hunters reported seeing a 'man without skin' watching them from approximately 50 yards away. They described its body as appearing 'raw and red like butchered meat' with visible muscle structure. The entity observed them for several minutes before retreating into dense laurel thickets. Both witnesses were deeply unsettled and left the area immediately.",
+        "conditions": {
+          "weather": "Overcast, cool",
+          "visibility": "Good daylight",
+          "time_of_day": "Late afternoon",
+          "duration": "Several minutes"
+        },
+        "evidence": [
+          "Consistent testimony from both witnesses",
+          "Local newspaper mention (brief)"
+        ],
+        "credibility": {
+          "rating": "low-medium",
+          "factors": [
+            "Multiple witnesses",
+            "Daylight sighting",
+            "Witnesses known to community",
+            "No physical evidence",
+            "Possible misidentification"
+          ],
+          "notes": "Better documented than most accounts but still lacks physical evidence."
+        },
+        "sources": [
+          "Harlan Daily Enterprise, November 1963 (brief mention)",
+          "Witness interviews conducted 1985"
+        ],
+        "featured": true
+      }
+    ],
+    "database_path": "./sightings/"
+  },
+
+  "evidence": {
+    "physical": [
+      {
+        "id": "skinned-tom-evidence-none",
+        "type": "none",
+        "name": "No physical evidence",
+        "description": "No verified physical evidence has been collected for Skinned Tom",
+        "status": "non-existent"
+      }
+    ],
+    "photographic": [
+      {
+        "id": "skinned-tom-evidence-no-photos",
+        "type": "none",
+        "name": "No photographic evidence",
+        "description": "No verified photographs exist of Skinned Tom",
+        "status": "non-existent"
+      }
+    ],
+    "video": [
+      {
+        "id": "skinned-tom-evidence-no-video",
+        "type": "none",
+        "name": "No video evidence",
+        "description": "No verified video footage exists of Skinned Tom",
+        "status": "non-existent"
+      }
+    ],
+    "audio": [
+      {
+        "id": "skinned-tom-evidence-no-audio",
+        "type": "none",
+        "name": "No audio evidence",
+        "description": "No audio recordings attributed to Skinned Tom exist",
+        "status": "non-existent"
+      }
+    ],
+    "trace": [
+      {
+        "id": "skinned-tom-evidence-no-trace",
+        "type": "none",
+        "name": "No trace evidence",
+        "description": "No footprints, hair samples, or other trace evidence collected",
+        "status": "non-existent"
+      }
+    ]
+  },
+
+  "theories": {
+    "paranormal": [
+      {
+        "name": "Cursed Spirit",
+        "description": "Entity is a cursed human spirit doomed to wander skinless as punishment",
+        "proponents": ["Regional folklore tradition"],
+        "evidence_cited": ["Oral tradition themes", "Cautionary tale structure"]
+      },
+      {
+        "name": "Death Omen",
+        "description": "Skinned Tom is a harbinger of death or misfortune",
+        "proponents": ["Mountain storytelling tradition"],
+        "evidence_cited": ["Some accounts link sightings to subsequent tragedies"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Folklore Entity Only",
+        "description": "Purely folkloric creation with no basis in physical entity",
+        "proponents": ["Folklorists", "Skeptics"],
+        "evidence_cited": ["Lack of physical evidence", "Variation in accounts", "Oral tradition patterns"]
+      },
+      {
+        "name": "Misidentified Animals",
+        "description": "Sightings are misidentified bears, deer, or other animals with mange or injuries",
+        "proponents": ["Wildlife biologists", "Skeptics"],
+        "evidence_cited": ["Animals with severe mange can appear skinless", "Poor lighting in many accounts"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Cautionary Tale",
+        "description": "Story created to keep children from wandering into dangerous areas",
+        "proponents": ["Folklore researchers"],
+        "evidence_cited": ["Common function of boogeyman figures", "Dangerous terrain in Appalachia"]
+      },
+      {
+        "name": "Misidentification and Fear",
+        "description": "Combination of misidentified animals and cultural expectation in isolated settings",
+        "proponents": ["Skeptical researchers"],
+        "evidence_cited": ["All sightings lack physical evidence", "Power of suggestion in folklore-rich areas"]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Appalachian oral storytelling tradition",
+        "Mountain community cautionary tales",
+        "Scots-Irish folklore influence"
+      ],
+      "stories": [
+        "The skinned man who lost his way",
+        "Tom's curse for breaking a sacred oath",
+        "The hunter who became the hunted"
+      ],
+      "beliefs": "In traditional belief, Skinned Tom may be a cursed individual, a nature spirit, or a guardian of certain hollows. Some versions portray it as pitiable rather than evil, suffering eternal torment."
+    },
+    "indigenous": {
+      "cultures": [],
+      "significance": "No direct Indigenous connection documented. This appears to be primarily Euro-American Appalachian folklore.",
+      "sensitivity_note": "While not directly linked to Indigenous traditions, researchers should be aware of Cherokee and other Indigenous presence in region and avoid conflating traditions.",
+      "respect_guidelines": "Respect Appalachian cultural heritage and privacy of mountain communities when investigating."
+    },
+    "popular_culture": {
+      "literature": [
+        "Various Appalachian folklore collections",
+        "Regional ghost story anthologies",
+        "Cryptid compendiums"
+      ],
+      "film_tv": [
+        "Mentioned in various cryptid documentaries",
+        "Featured in online folklore videos"
+      ],
+      "games": [
+        "Referenced in indie horror games"
+      ],
+      "other": [
+        "Internet creepypasta adaptations",
+        "Cryptid enthusiast forums",
+        "Regional folklore festivals"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Regional folklorists",
+        "affiliation": "Various universities",
+        "contribution": "Documentation of Appalachian oral traditions",
+        "period": "1980s-present"
+      },
+      {
+        "name": "Cryptid investigators",
+        "affiliation": "Independent researchers",
+        "contribution": "Collection of sighting reports and witness interviews",
+        "period": "2000s-present"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Appalachian Folklore Center",
+        "url": "Various regional centers",
+        "focus": "Preservation of mountain cultural traditions"
+      },
+      {
+        "name": "Independent cryptozoology researchers",
+        "url": "Various online communities",
+        "focus": "Documentation and investigation of reports"
+      }
+    ],
+    "ongoing_studies": "Limited formal research. Primary study consists of folklore preservation and occasional cryptozoology investigations in Appalachian region."
+  },
+
+  "sources": [
+    {
+      "id": "appalachian-folklore-general",
+      "type": "reference",
+      "title": "Appalachian Folklore Collections",
+      "description": "Various academic and popular collections documenting Appalachian oral traditions"
+    },
+    {
+      "id": "witness-accounts",
+      "type": "oral_history",
+      "title": "Witness Accounts and Oral Histories",
+      "description": "First-hand and second-hand accounts collected from Appalachian communities"
+    },
+    {
+      "id": "cryptid-databases",
+      "type": "website",
+      "title": "Online Cryptid Databases",
+      "description": "Various online resources documenting regional cryptid legends"
+    }
+  ]
+}
