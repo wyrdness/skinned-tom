@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/skinned-tom",
     "maintainers": [
       {
@@ -16,72 +16,112 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "skinned-tom",
     "name": "Skinned Tom",
     "aliases": [],
-    "category": "CRYPTID",
-    "subcategory": "| Description | Status |",
+    "category": "URBAN_LEGEND",
+    "subcategory": "Southern Gothic cautionary legend / vengeful spirit",
     "tags": [
+      "appalachian",
+      "southern",
+      "urban-legend",
+      "cautionary-tale",
+      "skinless",
+      "ghost",
       "folklore",
-      "mythology"
+      "tennessee",
+      "alabama",
+      "mississippi",
+      "georgia",
+      "south-usa"
     ],
-    "status": "documented",
+    "status": "active",
     "description": {
-      "summary": "Skinned Tom is a creature from Appalachian folklore described as a humanoid figure completely devoid of skin, exposing raw red muscle, sinew, and tissue beneath.",
-      "full": "Skinned Tom is a creature from Appalachian folklore described as a humanoid figure completely devoid of skin, exposing raw red muscle, sinew, and tissue beneath. Standing roughly human height but with an unsettling gait, this entity is said to inhabit the deep hollows and remote mountain regions of the Appalachian Mountains. While its appearance is universally described as terrifying, accounts of its behavior vary—some portray it as a malevolent entity that stalks travelers, while others suggest it is more curious or even pitiful, possibly cursed or suffering. The legend has roots in oral tradition passed down through generations of mountain communities, with few documented modern sightings but persistent presence in regional folklore. Skinned Tom represents a distinctive entry in Appalachian folklore, reflecting the region's rich tradition of cautionary tales and mysterious phenomena associated with the deep woods and isolated hollows of the mountains."
+      "summary": "Skinned Tom is a Southern American urban legend and cautionary tale about a man flayed alive after an adulterous affair, whose skinless, knife-carrying spirit now haunts lovers' lanes and remote roads as a warning against infidelity.",
+      "full": "Skinned Tom is an urban legend and cautionary tale from the American South, with versions recorded in Tennessee, Alabama, Mississippi, and parts of Georgia. The core narrative involves a man — typically described as a charming womanizer or adulterer — who is discovered in an affair by a jealous husband or family member and is violently killed, typically by being flayed or skinned alive. His spirit returns as a humanoid figure entirely devoid of skin, exposing raw red musculature and sinew, typically carrying a long knife (either the blade used to flay him or a hunting knife taken from his killer). The creature haunts parked cars, motel parking lots, and remote roads at night, particularly locations associated with romantic trysts. The legend functions as an explicit moral warning: do not cheat on your partner, do not engage in secret affairs, and do not linger in isolated romantic spots after dark. Like many Southern Gothic cautionary legends, Skinned Tom combines lurid horror imagery with a strict moral framework, using the supernatural to enforce social norms around fidelity and discretion. The legend has limited documentation in academic folklore archives but has been transmitted orally through generations of Southern communities and appears in contemporary internet folklore discussions."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "American South; oral tradition of unknown specific origin but documented in Tennessee, Alabama, Mississippi, and Georgia.",
+      "meaning": "Tom is a generic male name serving as the protagonist; 'Skinned' refers to the flaying that creates the creature.",
+      "first_use": "Oral tradition of uncertain age; documented in contemporary folklore surveys of the American South."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "CRYPTID",
-      "type": "| Description | Status |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "URBAN_LEGEND",
+      "type": "Vengeful spirit / cautionary legend",
+      "subtype": "Southern Gothic",
+      "variant": "American South (Tennessee, Alabama, Mississippi, Georgia)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "hookman", "name": "The Hook", "relationship": "similar", "description": "Another lovers' lane cautionary urban legend (escaped maniac with a hook) that targets couples in parked cars at isolated locations" },
+      { "id": "flayed-man", "name": "Flayed Man legends", "relationship": "related", "description": "Cross-cultural tradition of flayed figures as moral warnings; appears in Aztec mythology (Xipe Totec), European martyrology, and folk horror" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Completely skinless body", "description": "The defining characteristic: the entire skin has been removed, exposing raw red muscle, sinew, tendons, and tissue", "frequency": "always" },
+        { "feature": "Human height and form", "description": "Retains the general form of a man; described as roughly human height with a disturbing gait", "frequency": "always" },
+        { "feature": "Carries a long knife", "description": "Typically depicted carrying a long knife — either the blade used to flay him or a hunting knife", "frequency": "common" },
+        { "feature": "Luminous or disturbing appearance", "description": "The exposed musculature and wet appearance of the skinless body makes the figure immediately recognizable in darkness", "frequency": "always" }
+      ],
+      "morphology": "A humanoid figure of human scale but utterly wrong appearance — the normal human silhouette filled with the raw anatomical interior that should be hidden. The horror derives from the uncanny combination of familiar form and grotesque revelation."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Stalking of lovers' lanes and isolated roads", "description": "The creature specifically targets remote roads, parked cars, and motel areas associated with romantic trysts", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Watching and observation", "description": "Often described as standing at a distance and watching before approaching, adding to the terror of the encounter", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Attack with knife", "description": "Armed with a long knife and capable of violence, consistent with the revenge narrative of the legend", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["lovers' lanes", "isolated rural roads", "motel parking lots", "remote areas"],
+      "diet": "Not specified",
+      "patterns": [
+        "Appears specifically near locations associated with secretive romantic activity",
+        "Typically stands at a distance first, watching, before approaching",
+        "The legend functions as a direct moral warning: the entity targets those engaged in infidelity or hidden affairs"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "The American South, with documented oral tradition in Tennessee, Alabama, Mississippi, and parts of Georgia.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": ["Tennessee", "Alabama", "Mississippi", "Georgia", "Appalachian region"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1900-01-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Oral tradition; approximate period of oral circulation unknown; documented in 20th-century Southern folklore surveys"
+      },
+      "peak_activity_periods": [
+        { "period": "Mid-20th century", "description": "The lovers' lane cautionary tale format flourished alongside mid-century automobile culture, which created the social context (young couples in parked cars at isolated locations) that the legend addresses" }
+      ],
+      "seasonal_patterns": "No seasonal pattern; the legend is associated with nighttime and isolation rather than any particular time of year."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Southern American oral folklore tradition, situated within the broader Southern Gothic cultural framework that uses horror and grotesque imagery to enforce moral and social norms. The flaying narrative connects to older traditions of punishment and moral retribution across many cultures.",
+      "earliest_accounts": "Oral tradition of uncertain documented age; most academic references to the legend appear in 20th-century American folklore collections and surveys of Southern regional legends. The legend is especially associated with Tennessee.",
+      "folklore_connections": "Belongs to the 'lovers' lane monster' category of American urban legend alongside The Hook, The Boyfriend's Death, and similar tales that target couples in parked cars at isolated locations as a warning against both moral transgression and naivety."
     },
-    "timeline": []
+    "timeline": [],
+    "modern_era": "Skinned Tom circulates in internet folklore communities, regional legend collections, and oral tradition in the American South. The legend has not achieved the national mainstream recognition of Hook Man or other lovers' lane legends, remaining more regionally concentrated."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +132,73 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Vengeful spirit of a murder victim",
+        "description": "Within the legend's own framework, Skinned Tom is the literal returning spirit of a man murdered through flaying, who haunts the landscape of his transgression and targets those engaged in similar moral failures.",
+        "proponents": ["Oral tradition"],
+        "evidence_cited": ["Internal consistency of the legend across regional variants"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Cautionary social control mechanism",
+        "description": "Skinned Tom is a deliberately horrifying cautionary tale created and transmitted to deter infidelity and the use of isolated locations for secret romantic encounters. The grotesque imagery of flayed skin functions to make the moral warning as viscerally memorable as possible.",
+        "proponents": ["Folklore scholars", "Urban legend researchers"],
+        "evidence_cited": ["The legend's explicit moral function (warnings against infidelity)", "The specific targeting of lovers' lanes and romantic tryst locations", "Structural similarity to other American cautionary lovers' lane legends", "Absence of any physical evidence or documented encounters"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Southern American oral tradition",
+        "Lovers' lane cautionary legend genre",
+        "Southern Gothic horror folklore"
+      ],
+      "stories": [
+        "Core narrative: Tom (a ladies' man or adulterer) is caught in an affair and flayed alive by a jealous husband; his skinless spirit returns to haunt isolated roads and lovers' lanes carrying the knife",
+        "Variants describe the spirit watching from a distance before approaching parked cars"
+      ],
+      "beliefs": "Skinned Tom encodes a strict moral framework around fidelity and discretion. The horror of the skinless form is inseparable from the moral: the man who stripped away his moral cover (through adultery) has his physical cover (skin) stripped in kind. The punishment fits the crime in a literalized, grotesque moral equation."
     },
     "popular_culture": {
       "literature": [],
       "film_tv": [],
       "games": [],
-      "other": []
+      "other": [
+        "Circulates in internet folklore forums, regional legend collections, and Southern oral tradition",
+        "Featured in regional horror podcast discussions of Southern Gothic legends"
+      ]
     }
   },
+
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Skinned Tom is documented in American urban legend studies as part of the lovers' lane cautionary tale tradition. No dedicated academic monograph focuses exclusively on this legend."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "websearch-skinned-tom-2026",
+      "type": "website",
+      "title": "Skinned Tom — Urban Legends Mystery and Myth",
+      "url": "https://www.urbanlegendsmysteryandmyth.com/2025/08/skinned-tom.html",
+      "accessed": "2026-05-08"
+    }
+  ]
 }
